@@ -283,11 +283,6 @@ class CircleWidget(Widget):
             speak("Opening Discord for you sir")
             discord_path = "C:\\Users\\ASUS\\AppData\\Local\\Discord\\app-1.0.9028\\Discord.exe"
             os.startfile(discord_path)
-
-        elif "open gta" in query:
-            speak("Opening Gta for you sir")
-            gta_path = "D:\\Tanishq\\GTA\\Launcher.exe"
-            os.startfile(gta_path)
         
 
         elif 'subscribe' in query:
