@@ -148,11 +148,11 @@ class CircleWidget(Widget):
         # Schedule the update function for the time label
         Clock.schedule_interval(self.update_time, 1)
         
-        self.title = Label(text='[b][color=3333ff]ERROR BY NIGHT[/color][/b]', font_size=42, markup=True, font_name='mw.ttf', pos=(920, 900))
+        self.title = Label(text='[b][color=3333ff]UDN[/color][/b]', font_size=42, markup=True, font_name='mw.ttf', pos=(920, 900))
         self.add_widget(self.title)
 
         self.subtitles_input = TextInput(
-            text='Hey Dhruv! I am Jarvis, your personal assistant.',
+            text='Hey Boss! I am MIRAGE, your personal assistant.',
             font_size=24,
             readonly=True,
             background_color=(0, 0, 0, 0),  # Set background color to be transparent
@@ -292,8 +292,7 @@ class CircleWidget(Widget):
 
         elif 'subscribe' in query:
             speak(
-                        "Everyone who are watching this video, Please subscribe for more amazing content from error by "
-                        "night. I will show you how to do this")
+                        "Everyone who are watching this video, Please subscribe for more amazing content from Unvictory Gamer. I will show you how to do this")
             speak("Firstly Go to youtube")
             webbrowser.open("https://www.youtube.com/")
             speak("click on the search bar")
